@@ -25,6 +25,3 @@ def sort(container):
 
         right_cont = [elem for elem in container if elem > sup_elem]
         return sort(left_cont) + mid + sort(right_cont)
-
-
-#print(sort([5,1,3,7,2,4]))
